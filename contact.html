@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Tarifs</title>
+  <title>Contact</title>
   <meta name="description" content="Site coach sportif">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -20,6 +20,7 @@
   <link href="css/pe-icon-7-stroke.css" rel="stylesheet" />
   <link href="css/ct-navbar.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -39,53 +40,45 @@
   </div>
 </nav>
 
-<div class="row">
-<div class="col-md-4">
-</div>
-<table class="table-responsive table-dark col-md-4 my-5">
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col">Course</th>
-      <th scope="col">Fitness</th>
-      <th scope="col">Sport contact</th>
-      <th scope="col">Pack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1h</th>
-      <td>10€</td>
-      <td>15€</td>
-      <td>20€</td>
-      <td>40€</td>
-    </tr>
-    <tr>
-      <th scope="row">2h</th>
-      <td>15€</td>
-      <td>20€</td>
-      <td>25€</td>
-      <td>50€</td>
-    </tr>
-    <tr>
-      <th scope="row">3h</th>
-      <td>20€</td>
-      <td>25€</td>
-      <td>30€</td>
-      <td>60€</td>
-    </tr>
-    <tr>
-      <th scope="row">4h</th>
-      <td>25€</td>
-      <td>30€</td>
-      <td>35€</td>
-      <td>70€</td>
-    </tr>
-  </tbody>
-</table>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 d-flex align-items-center d-flex justify-content-center contact">
+      <div id="contact_form">
+        <form name="form1" id="ff" method="POST" action="URL">
+          <label>
+            <input type="text" placeholder="Votre Nom" name="name" id="name" required/>
+          </label>
+          <label>
+            <input type="text" placeholder="Votre Ville" name="city" id="city" required/>
+          </label>
+          <label>
+            <input type="tel" placeholder="Votre Numéro de Téléphone" name="phone" id="phone">
+          </label>
+          <label>
+            <input type="email" placeholder="email" name="email" id="email" required>
+          </label>
+          <label>
+            <textarea name="monmessage" placeholder="Votre message" id="monmessage" cols="20"></textarea>
+          </label>
+          <input class="sendButton" type="submit" name="Submit" value="Envoyer">
+        </form>
+      </div>
+    </div>
+    <div class="col-md-6 my-5">
+      <div class="PD">
+      <div class="responsiveCal">
+      <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=arnaud.cartailler%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FParis" style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class ="map-responsive ml-5 mt-5">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.079111262945!2d3.1187998510381845!3d50.58848287939402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d6f3dde76c5b%3A0x34141538b049659f!2sVITAMIN+Group+T!5e0!3m2!1sen!2sfr!4v1531921971822" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<footer class="footarif">
+
+<footer>
   <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
   <a href=""><i class="fab fa-twitter fa-3x"></i></a>
   <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
